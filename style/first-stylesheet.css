@@ -1,5 +1,6 @@
+/* Start Header Styles */
 header, footer {
-  padding: 1em;
+  padding-top: .05em;
   color: white;
   background-color: black;
   clear: both;  
@@ -9,71 +10,132 @@ header, footer {
   font-family: 'Bangers', cursive;
 }
 
-nav {
-    display: block;
-    float: left;
-    max-width: 160px;
-    margin: 0;
-    padding: 1em;
+.topheader {
+  font-size: 3rem;
 }
 
-    body {
-        font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
-        font-style: normal; 
-        font-size: 16px; 
-      }
-      
-      a {
-        color: #e20074;
-        }
-      
-      h1 {
-        color: rebeccapurple; 
-      }
+nav {
+  display: block;
+  float: left;  
+  max-width: 160px;
+  margin: 0;
+  padding: 1rem;
+  font-size: 1.25rem; 
+}
 
-      h1::first-letter {
-        font-size: 125%;
-      }
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  overflow: auto; 
+  background-color: #838383; 
+}
 
-      h2 {
-        font-size: 20px; 
-        color: rebeccapurple;
-      }
+ul.topnav li {
+  float: inherit; 
+  display: inline-block; 
+  color: white;
+  padding: 1rem; 
+  font-size: 1.25rem; 
+}
 
-      h3  {
-        font-size: 14px; 
-        color: deepskyblue;
-      }
+ul.topnav li a {
+  color: white; 
+  text-align: center; 
+  padding: 1rem; 
+  text-decoration: none; 
+  font-size: 1.25rem;
+}
 
-      h3::first-letter {
-        font-size: 125%;
-      }
+ul.topnav li a:hover{
+  color: black;
+}
 
-      h4  {
-        font-size: 12px; 
-        color: black;
-      }
+/* Begin Body Styles */
+article {
+  font-family: Segoe UI Light, Arial, sans-serif;
+  font-size: 22px;
+}            
 
-      p  {
-        font-size: 14px; 
-        color: black; 
-      }
-      
-      li  {
-        list-style-type: square;
-        font-size: 16px;
-        color: navy;
-      }
-    
-      article {
-        font-style: normal; 
-        font-size: 16px; 
-        width: 980px; 
-      }
-            
-      footer {
-        color: #E20074;
-        font-style: italic; 
-        font-size: 14px; 
-      }
-    </style>
+.bark {
+  color: #e20074;
+}
+
+ul.gatos li { 
+  clear: both;
+  display:  inline-block;
+  color: white;
+  padding: 1rem; 
+  font-size: 1.25rem;  
+}
+
+/* Begin Footer Styles */
+
+footer {
+  display: block;
+  clear: both;
+  margin: 0;
+  padding: .05rem;
+  font-size: 30 px; 
+}
+
+ul.infofooter {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5rem;
+  overflow: auto; 
+}
+
+ul.infofooter li {
+  float: inherit; 
+  display: inline-block; 
+  color: white;
+  padding: 0.5em; 
+  font-size: 1.25em; 
+}
+
+ul.infofooter li a {
+  color: white; 
+  text-align: center; 
+  padding: 0.25rem; 
+  text-decoration: none; 
+}
+
+ul.infofooter li a:hover{
+  color: #838383;
+}
+
+p.footerinfo {
+  font-size: 25px;
+  text-align: center;
+  padding: 0; 
+  color: white;
+}
+
+ul.footernav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.25em;
+  overflow: hidden; 
+  display: inline-block; 
+}
+
+ul.footernav li {float: left}
+
+ul.footernav li a {
+  display: inline-block; 
+  padding: .5em .3em; 
+  text-decoration:  none; 
+  text-align:  center;
+}
+
+.footernav li:after {
+  content: "/"; 
+  color: white; 
+}
+
+.footernav li:last-child:after {content:""; }
+
+
+
+
+</style>
