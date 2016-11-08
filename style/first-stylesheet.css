@@ -76,6 +76,8 @@ footer {
   margin: 0;
   padding: .05rem;
   font-size: 30 px; 
+  background-color: black; 
+  background-image: linear-gradient(black, #838383); 
 }
 
 ul.infofooter {
@@ -110,32 +112,5 @@ p.footerinfo {
   padding: 0; 
   color: white;
 }
-
-ul.footernav {
-  list-style-type: none;
-  margin: 0;
-  padding: 0.25em;
-  overflow: hidden; 
-  display: inline-block; 
-}
-
-ul.footernav li {float: left}
-
-ul.footernav li a {
-  display: inline-block; 
-  padding: .5em .3em; 
-  text-decoration:  none; 
-  text-align:  center;
-}
-
-.footernav li:after {
-  content: "/"; 
-  color: white; 
-}
-
-.footernav li:last-child:after {content:""; }
-
-
-
 
 </style>
