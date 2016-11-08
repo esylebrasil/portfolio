@@ -54,6 +54,8 @@ ul.topnav li a:hover{
 article {
   font-family: Segoe UI Light, Arial, sans-serif;
   font-size: 22px;
+  margin: 0.5em; 
+  padding: .05em;
 }            
 
 .bark {
