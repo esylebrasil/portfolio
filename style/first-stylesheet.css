@@ -1,6 +1,6 @@
 /* Start Header Styles */
 header, footer {
-  padding-top: .05em;
+  padding-top: 1rem;
   color: white;
   background-color: black;
   clear: both;  
@@ -27,19 +27,19 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   overflow: auto; 
-  background-color: #838383; 
+  background-color: white; 
 }
 
 ul.topnav li {
   float: inherit; 
   display: inline-block; 
-  color: white;
+  color: black;
   padding: 1rem; 
   font-size: 1.25rem; 
 }
 
 ul.topnav li a {
-  color: white; 
+  color: black; 
   text-align: center; 
   padding: 1rem; 
   text-decoration: none; 
@@ -51,15 +51,24 @@ ul.topnav li a:hover{
 }
 
 /* Begin Body Styles */
+body {
+    background-color: #BDBDBD; 
+}
 article {
   font-family: Segoe UI Light, Arial, sans-serif;
   font-size: 22px;
   margin: 0.5em; 
   padding: .05em;
+  height: 700px;
 }            
 
 .bark {
   color: #e20074;
+}
+
+.pups {
+  display: block;
+  padding: 2rem;
 }
 
 ul.gatos li { 
@@ -70,6 +79,12 @@ ul.gatos li {
   font-size: 1.25rem;  
 }
 
+aside {
+  float: right; 
+  margin: 0;
+  padding: 2rem;
+}
+
 /* Begin Footer Styles */
 
 footer {
@@ -78,8 +93,7 @@ footer {
   margin: 0;
   padding: .05rem;
   font-size: 30 px; 
-  background-color: black; 
-  background-image: linear-gradient(black, #838383); 
+  background-image: linear-gradient(black, #838383)
 }
 
 ul.infofooter {
