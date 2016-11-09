@@ -31,7 +31,6 @@ ul.topnav {
 }
 
 ul.topnav li {
-  float: inherit; 
   display: inline-block; 
   color: black;
   padding: 1rem; 
@@ -58,8 +57,7 @@ article {
   font-family: Segoe UI Light, Arial, sans-serif;
   font-size: 22px;
   margin: 0.5em; 
-  padding: .05em;
-  height: 700px;
+  padding: 2rem;
 }            
 
 .bark {
@@ -71,7 +69,7 @@ article {
   padding: 2rem;
 }
 
-ul.gatos li { 
+.gatos li { 
   clear: both;
   display:  inline-block;
   color: white;
@@ -92,7 +90,7 @@ footer {
   clear: both;
   margin: 0;
   padding: .05rem;
-  font-size: 30 px; 
+  font-size: 20px; 
   background-image: linear-gradient(black, #838383)
 }
 
@@ -104,7 +102,6 @@ ul.infofooter {
 }
 
 ul.infofooter li {
-  float: inherit; 
   display: inline-block; 
   color: white;
   padding: 0.5em; 
@@ -122,11 +119,9 @@ ul.infofooter li a:hover{
   color: #838383;
 }
 
-p.footerinfo {
+.footerinfo {
   font-size: 25px;
   text-align: center;
   padding: 0; 
   color: white;
 }
-
-</style>
