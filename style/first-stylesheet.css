@@ -27,7 +27,7 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   overflow: auto; 
-  background-color: white; 
+  background-color: #838383; 
 }
 
 ul.topnav li {
@@ -50,9 +50,6 @@ ul.topnav li a:hover{
 }
 
 /* Begin Body Styles */
-body {
-    background-color: #BDBDBD; 
-}
 article {
   font-family: Segoe UI Light, Arial, sans-serif;
   font-size: 22px;
