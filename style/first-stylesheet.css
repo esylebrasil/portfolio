@@ -78,6 +78,10 @@ article {
   -webkit-transition: width 1s, height 1s;
   transition: width 1s, height 1s;
   transition-timing-function: ease-in-out;
+  transform: rotate(25deg);
+  -webkit-transform: rotate(25deg); 
+  -me-transform: rotate(25deg);
+    
 }
 aside {
   float: right; 
