@@ -46,7 +46,7 @@ ul.topnav li a {
 }
 
 ul.topnav li a:hover{
-  color: black;
+  color: white;
 }
 
 /* Begin Body Styles */
@@ -62,22 +62,31 @@ article {
 }
 
 .pups {
-  display: block;
   padding: 2rem;
+  float: right;
+  display: inline-block; 
 }
 
-.gatos li { 
-  clear: both;
-  display:  inline-block;
-  color: white;
-  padding: 1rem; 
-  font-size: 1.25rem;  
+.gatos img {
+  height: 150px;
 }
 
+.gatos img:hover {
+  background-color: #e20074;
+  padding: .25rem; 
+  height: 300px;
+  -webkit-transition: width 1s, height 1s;
+  transition: width 1s, height 1s;
+  transition-timing-function: ease-in-out;
+}
 aside {
   float: right; 
   margin: 0;
   padding: 2rem;
+}
+
+.interests :nth-child(3) {
+  color: #e20074;
 }
 
 /* Begin Footer Styles */
@@ -100,14 +109,13 @@ ul.infofooter {
 
 ul.infofooter li {
   display: inline-block; 
-  color: white;
   padding: 0.5em; 
   font-size: 1.25em; 
 }
 
 ul.infofooter li a {
-  color: white; 
   text-align: center; 
+  color: white;
   padding: 0.25rem; 
   text-decoration: none; 
 }
