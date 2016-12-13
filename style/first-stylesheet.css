@@ -49,6 +49,10 @@ ul.topnav li a:hover{
   color: white;
 }
 
+topnav.btn li a:hover{
+  color: white;
+}
+
 /* Begin Body Styles */
 article {
   font-family: Segoe UI Light, Arial, sans-serif;
